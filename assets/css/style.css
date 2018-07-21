@@ -1,0 +1,19 @@
+
+body{
+    background-color: black;
+}
+.jumbotron {
+    background-color: white;
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+}
+h4 {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 16px;
+}
+p {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 12px;
+}   
