@@ -18,8 +18,8 @@
 
 <body>
     <div class="jumbotron">
-        <h1 class="display-4">Which 80s character is the best?</h1>
-        <p class="lead">Have fun with your favorite 80s video game characters.</p>
+        <h1>Which 80s character is the best?</h1>
+        <p>Have fun with your favorite 80s video game characters.</p>
     </div>
     <div class="container">
         <div class="row">
@@ -28,12 +28,30 @@
                 <p>Choose your hero from the options at the right. That will be your hero for the entire game. Then, from the remaining heroes, choose the first hero to defeat. Both players will enter the "Hero Arena" in the middle of your screen.</p>
 
             </div>
-            <div class="col" id="arena">
-                <h4>Hero Arena</h4>
-                <p>,,arena here,,</p>
+            <div class="col" id="mainstage">
+                <div class="row">
+                    <div class="col-12">
+                            <h4>Hero Arena</h4>
+                    </div>
+                <div class="row" id="arena">
+                    <div class="col-6" id="hero-corner">
+                        <h6>Your Hero</h6>
+                    </div>
+                    <div class="col-6" id="opponent-corner">
+                        <h6>Opponent</h6>
+                        </div>
+                </div>
+                </div>
+                <p></p>
             </div>
             <div class="col-2" id="players-field">
                 <h4>Players</h4>
+                <div class="all-players">
+                    <img id="pacman-pic" src="assets/images/pac-man.gif" />
+                    <img id="donkeykong-pic" src="assets/images/donkey-kong.gif" />
+                    <img id="oregontrail-pic" src="assets/images/oregon-trail.gif" />
+                    <img id="qbert-pic" src="assets/images/q-bert.gif" />
+                </div>
             </div>
         </div>
     </div>
